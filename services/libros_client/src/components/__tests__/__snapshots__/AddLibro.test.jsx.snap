@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddLibro renders a snapshot properly 1`] = `
+<div
+  class="col-md-12"
+>
+  <div
+    class="well well-sm"
+  >
+    <form
+      className="form-horizontal"
+      onSubmit={[Function]}
+      style={
+        Object {
+          "background": "#D3D3D3",
+          "marginTop": "30px",
+          "padding": "50px",
+        }
+      }
+    >
+      <fieldset>
+        <legend
+          class="text-center header"
+        >
+          Registro de libros
+        </legend>
+        <div
+          className="col-md-12"
+        >
+          <span
+            className="col-md-1 col-md-offset-2 text-center"
+          >
+            <i
+              className="fa fa-user bigicon"
+            />
+          </span>
+          <div>
+            <input
+              className="form-control"
+              id="nombre"
+              name="nombre"
+              placeholder="Nombre del libro"
+              require={true}
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          className="col-md-12"
+          style={
+            Object {
+              "marginTop": "10px",
+            }
+          }
+        >
+          <span
+            className="col-md-1 col-md-offset-2 text-center"
+          >
+            <i
+              className="fa fa-user bigicon"
+            />
+          </span>
+          <div>
+            <input
+              className="form-control"
+              id="autor"
+              name="autor"
+              placeholder="Autor del libro"
+              require={true}
+              type="text"
+            />
+          </div>
+        </div>
+        <div
+          className="col-md-12"
+          style={
+            Object {
+              "marginTop": "10px",
+            }
+          }
+        >
+          <span
+            className="col-md-1 col-md-offset-2 text-center"
+          >
+            <i
+              className="fa fa-user bigicon"
+            />
+          </span>
+          <div>
+            <input
+              className="form-control"
+              id="costo"
+              name="costo"
+              placeholder="Precio del libro"
+              require={true}
+              type="number"
+            />
+          </div>
+        </div>
+        <div
+          className="col-md-12"
+          style={
+            Object {
+              "marginTop": "10px",
+            }
+          }
+        >
+          <span
+            className="col-md-1 col-md-offset-2 text-center"
+          >
+            <i
+              className="fa fa-pencil-square-o bigicon"
+            />
+          </span>
+          <div>
+            <textarea
+              className="form-control"
+              id="descripcion"
+              name="descripcion"
+              placeholder="Descripcion del libro"
+              require={true}
+              rows="7"
+            />
+          </div>
+        </div>
+        <div
+          className="col-md-12"
+          style={
+            Object {
+              "marginTop": "10px",
+            }
+          }
+        >
+          <h4
+            type="text"
+          >
+            Seleccione Categoria:
+          </h4>
+        </div>
+        <div
+          className="col-md-12"
+          style={
+            Object {
+              "marginTop": "0px",
+            }
+          }
+        >
+          <select
+            className="col-md-4"
+            id="categoria"
+            name="categoria"
+            placeholder="Descripcion del producto"
+            require={true}
+          >
+            <option
+              values="option1"
+            >
+              Terror
+            </option>
+            <option
+              values="option2"
+            >
+              Realismo
+            </option>
+            <option
+              values="option3"
+            >
+              Drama
+            </option>
+            <option
+              values="option4"
+            >
+              Familia
+            </option>
+            <option
+              values="option5"
+            >
+              Educación
+            </option>
+            <option
+              values="option6"
+            >
+              Ficcion
+            </option>
+            <option
+              values="option7"
+            >
+              Caricatura
+            </option>
+          </select>
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "float": "right",
+            }
+          }
+        >
+          <div
+            class="col-md-12"
+          >
+            <button
+              class="btn btn-primary btn-lg "
+              id="hola"
+              type="submit"
+            >
+              Registrar
+            </button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

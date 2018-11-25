@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LibroList renders a snapshot properly 1`] = `
+<div
+  className="well"
+  style={
+    Object {
+      "color": "black",
+      "float": "center",
+      "fontSize": "18px",
+      "marginLeft": "0px",
+      "marginTop": "50px",
+    }
+  }
+>
+  <legend
+    className="text-center header"
+  >
+    Lista de Libros registrados
+  </legend>
+  <div>
+    <table
+      className="table table-striped"
+    >
+      <thead
+        className="thead-dark"
+      >
+        <tr>
+          <th
+            scope="col"
+          >
+            Nombre del Libro
+          </th>
+          <th
+            scope="col"
+          >
+            Descripción
+          </th>
+          <th
+            scope="col"
+          >
+            Categoria
+          </th>
+          <th
+            scope="col"
+          >
+            Autor
+          </th>
+          <th
+            scope="col"
+          >
+            Precio
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            los amantes son dementes
+          </td>
+          <td />
+          <td />
+          <td />
+          <td>
+            20
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;
