@@ -18,7 +18,7 @@ before_script:
 
 script:
   - docker-compose -f docker-compose-dev.yml run libros python manage.py test
-  - docker-compose -f docker-compose-dev.yml run libros flake8 project
+
 
 after_script:
   - docker-compose -f docker-compose-dev.yml down
